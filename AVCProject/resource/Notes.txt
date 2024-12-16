@@ -1,0 +1,36 @@
+//Methods to start off with the programme
+
+
+
+
+
+int main() {
+    //Core Loop 
+        CameraReading >> Pixel[] 
+        pixel processing method()
+                >> isRed
+                true?  break;
+                false: pixel call calculate with method()
+        robot steering()
+    //end loop
+}
+
+void Camera reading method(){
+    input from camera
+    convert to RGB
+    return pixel[]
+}
+
+calculate error value method{
+    calculate dist of black line in relation to center point
+    returns [double] error value for correction steering
+}
+
+Steering method(){
+    takes double error value as arguments
+    determine left/right engine with augmented value 
+}
+
+
+                               
+                                                            
